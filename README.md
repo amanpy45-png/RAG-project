@@ -1,4 +1,4 @@
-# RAG Chatbot from Scratch
+# PRISM - RAG Chatbot 
 
 A Retrieval-Augmented Generation (RAG) chatbot built from scratch using **LangChain**, **FAISS**, **Sentence Transformers**, and a **Local LLM (Ollama)**.
 
