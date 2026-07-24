@@ -79,8 +79,7 @@ with st.sidebar:
             "name": uploaded_file.name,
             "size_kb": round(len(uploaded_file.getbuffer()) / 1024, 1),
             "chunks": len(chunks),
-            "time": datetime.now().strftime("%H:%M:%S"),
-        }
+            "time": datetime.now().strftime("%H:%M:%S"),}
         st.session_state.messages = []
         st.rerun()
 
